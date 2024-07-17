@@ -1,0 +1,49 @@
+{
+  "code": "de_LS",
+  "description": "German - Leichte Sprache",
+  "translations": {
+    "MentalDemand": {
+      "title": "Mentaler Anspruch",
+      "description": "Wie anstrengend war das Denken bei der Aufgabe?"
+    },
+    "PhysicalDemand": {
+      "title": "Physischer Anspruch",
+      "description": "Wie körperlich anstrengend war die Aufgabe?"
+    },
+    "TemporalDemand": {
+      "title": "Zeitlicher Anspruch",
+      "description": "Wie stark musstest du dich bei der Aufgabe beeilen?"
+    },
+    "Performance": {
+      "title": "Erfolg",
+      "description": "Wie erfolgreich hast du die Aufgabe gelöst?"
+    },
+    "Effort": {
+      "title": "Aufwand",
+      "description": "Wie anstrengend war es die Aufgabe zu erfüllen?"
+    },
+    "Frustration": {
+      "title": "Frustration",
+      "description": "Wie unsicher, verwirrt, gestresst und genervt warst du?"
+    },
+    "errors": {
+      "fields missing": "Alle Felder müssen gefüllt werden."
+    },
+    "ForgetProblems": {
+      "title": "Echte Probleme",
+      "description": "In der Simulation konnte ich meine echten Probleme vergessen"
+    },
+    "AnotherWorld": {
+      "title": "Andere Welt",
+      "description": "In der Simulation fühlte ich mich wie in einer anderen Welt"
+    },
+    "ForgetAround": {
+      "title": "Die Welt vergessen",
+      "description": "Während der Simulation habe ich de Welt um mich total vergessen"
+    },
+    "Experience": {
+      "title": "Situation erleben",
+      "description": "In der Simulation hatte ich das Gefühl die Situation wirklich zu erleben"
+    }
+  }
+}

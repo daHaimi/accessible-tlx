@@ -1,0 +1,33 @@
+{
+  "code": "de_DE",
+  "description": "German - Germany",
+  "translations": {
+    "MentalDemand": {
+      "title": "Mentaler Anspruch",
+      "description": "Wie hoch war der mentale Anspruch der Aufgabe?"
+    },
+    "PhysicalDemand": {
+      "title": "Physischer Anspruch",
+      "description": "Wie hoch war der physische Anspruch der Aufgabe?"
+    },
+    "TemporalDemand": {
+      "title": "Zeitlicher Anspruch",
+      "description": "Wie eilig oder gehetzt war die Aufgabe?"
+    },
+    "Performance": {
+      "title": "Erfolg",
+      "description": "Wie erfolgreich waren Sie bei der Erfüllung der Aufgabe?"
+    },
+    "Effort": {
+      "title": "Aufwand",
+      "description": "Wie sehr mussten Sie sich anstrengen um die Aufgabe zu erfüllen?"
+    },
+    "Frustration": {
+      "title": "Frustration",
+      "description": "Wie verunsichert, entmutigt, irritiert, gestresst und genervt waren Sie?"
+    },
+    "errors": {
+      "fields missing": "Alle Felder müssen gefüllt werden."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "code": "en_US",
+  "description": "English - United States",
+  "translations": {
+    "MentalDemand": {
+      "title": "Mental Demand",
+      "description": "How mentally demanding was the task?"
+    },
+    "PhysicalDemand": {
+      "title": "Physical Demand",
+      "description": "How physically demanding was the task?"
+    },
+    "TemporalDemand": {
+      "title": "Temporal Demand",
+      "description": "How hurried or rushed was the pace of the task?"
+    },
+    "Performance": {
+      "title": "Performance",
+      "description": "How successful were you in accomplishing what you were asked to do?"
+    },
+    "Effort": {
+      "title": "Effort",
+      "description": "How hard did you have to work to accomplish your level of performance?"
+    },
+    "Frustration": {
+      "title": "Frustration",
+      "description": "How insecure, discouraged, irritated, stressed, and annoyed were you?"
+    },
+    "errors": {
+      "fields missing": "All fields must be filled in."
+    }
+  }
+}
