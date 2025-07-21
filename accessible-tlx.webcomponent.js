@@ -126,7 +126,6 @@ export class AccessibleTlx extends LitElement {
 
     firstUpdated(_changedProperties) {
         super.firstUpdated(_changedProperties);
-        this._updateOptions();
     }
     get form() { return this._internals.form; }
     get validity() {return this._internals.validity; }

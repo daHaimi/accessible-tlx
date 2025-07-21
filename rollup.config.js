@@ -3,7 +3,7 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
 
 const config = {
-    input: 'accessible-sus.webcomponent.js',
+    input: 'accessible-tlx.webcomponent.js',
     output: {
         dir: 'dist',
         entryFileNames: '[name].mjs',
