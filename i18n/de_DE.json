@@ -28,6 +28,10 @@
     },
     "errors": {
       "fields missing": "Alle Felder müssen gefüllt werden."
-    }
+    },
+    "veryLow": "Sehr Niedrig",
+    "veryHigh": "Sehr Hoch",
+    "perfect": "Perfekt",
+    "failure": "Fehlschlag"
   }
 }

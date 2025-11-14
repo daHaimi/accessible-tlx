@@ -44,6 +44,10 @@
     "Experience": {
       "title": "Situation erleben",
       "description": "In der Simulation hatte ich das Gefühl die Situation wirklich zu erleben"
-    }
+    },
+    "veryLow": "Sehr Wenig",
+    "veryHigh": "Sehr Viel",
+    "perfect": "Perfekt",
+    "failure": "Fehlschlag"
   }
 }

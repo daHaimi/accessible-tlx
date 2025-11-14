@@ -12,6 +12,17 @@ export const TlxContents = {
   'Frustration': Direction.Reverse
 };
 
+export const TlxExtremes = {
+  [Direction.Reverse]: {
+    l: 'veryLow',
+    r: 'veryHigh'
+  },
+  [Direction.Regular]: {
+    l: 'failure',
+    r: 'perfect'
+  }
+};
+
 export const PresenceContents = {
   'ForgetProblems': Direction.Regular,
   'AnotherWorld': Direction.Regular,

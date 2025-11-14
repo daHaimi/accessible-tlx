@@ -2,7 +2,7 @@ import 'element-internals-polyfill/dist';
 import 'regenerator-runtime/runtime';
 import {css, html, LitElement} from 'lit-element';
 import {customElement, property} from 'lit/decorators.js';
-import {AltTypes, PresenceContents, TlxContents} from './accessible-tlx.contents';
+import {AltTypes, PresenceContents, TlxContents, TlxExtremes} from './accessible-tlx.contents';
 import i18n from './i18n/i18n';
 
 @customElement('accessible-tlx')
@@ -73,7 +73,11 @@ export class AccessibleTlx extends LitElement {
             text-align: center;
             grid-column: 1 / span 7;
           }
-
+            
+          .item-label {
+              text-align: center;
+          }
+            
           .face {
             width: var(--face-size);
             height: var(--face-size);
@@ -184,7 +188,7 @@ export class AccessibleTlx extends LitElement {
         <div class="face${isSelected ? ' selected' : ''}" style="background-color: ${faceColor}"
              @click="${this._faceClickCallback}"
              data-name="${rowName}"
-             data-value="${reverse ? 8-faceIndex : faceIndex}">
+             data-value="${faceIndex}">
           <svg class="decals" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
             <circle r="10" cx="25" cy="40" fill="black"></circle>
             <circle r="10" cx="85" cy="40" fill="black"></circle>
@@ -200,6 +204,9 @@ export class AccessibleTlx extends LitElement {
         for (let i = 1; i <= 7; i++) {
             x.push(this._renderFace(rowName, i, reverse));
         }
+        x.push(html`<span class="item item-label">${this._t(TlxExtremes[reverse].l)}</span>`);
+        for (let i = 1; i <= 5; i++) x.push(html`<span class="item"></span>`);
+        x.push(html`<span class="item item-label">${this._t(TlxExtremes[reverse].r)}</span>`);
         return html`<div class="row">${x}</div>`;
     }
 
